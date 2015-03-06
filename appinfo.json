@@ -1,0 +1,36 @@
+{
+    "appKeys": {
+        "KEY_INVERT": 3,
+        "KEY_SHOW_DATE_TIME_TEXT": 1,
+        "KEY_SPIN_LOGO": 2
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "John Nill",
+    "longName": "Lutron Clock",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/Lutron_starburst_white_144x144_Trimmed.png",
+                "name": "LUTRON_LOGO",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/Lutron_starburst_icon.png",
+                "menuIcon": true,
+                "name": "LUTRON_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Lutron Clock",
+    "uuid": "5fabe9e9-aee6-497f-9530-83c049281502",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
