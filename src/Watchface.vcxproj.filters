@@ -24,4 +24,12 @@
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\images\Lutron_starburst_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\images\Lutron_starburst_white_144x144_Trimmed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

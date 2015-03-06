@@ -69,6 +69,10 @@
   <ItemGroup>
     <None Include="pebble-js-app.js" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\images\Lutron_starburst_icon.png" />
+    <Image Include="..\resources\images\Lutron_starburst_white_144x144_Trimmed.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
