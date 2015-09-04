@@ -13,22 +13,25 @@
     "resources": {
         "media": [
             {
-                "file": "images/Lutron_starburst_white_144x144_Trimmed.png",
-                "name": "LUTRON_LOGO",
-                "type": "png-trans"
-            },
-            {
                 "file": "images/Lutron_starburst_icon.png",
                 "menuIcon": true,
                 "name": "LUTRON_ICON",
                 "type": "png"
+            },
+            {
+                "file": "images/Lutron_starburst_white_144x144_Trimmed.png",
+                "name": "LUTRON_LOGO",
+                "type": "png-trans"
             }
         ]
     },
-    "sdkVersion": "2",
+    "sdkVersion": "3",
     "shortName": "Lutron Clock",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "5fabe9e9-aee6-497f-9530-83c049281502",
-    "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": true
